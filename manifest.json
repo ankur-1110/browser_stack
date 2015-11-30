@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "BrowserStack Extension",
+  "description": "This extension provides a list of OS's and browsers supported by BrowserStack",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "os_and_browser_list.html",
+    "default_title": "BrowserStack Extension"
+  },
+  
+  // "persistent": false,
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
+
+//ankurkumar7 zzyHHUqg7y9PknuEprJt
+//curl -iu "ankurkumar7:zzyHHUqg7y9PknuEprJ" https://api.browserstack.com/4/browsers
+

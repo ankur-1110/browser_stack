@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="gr__developer_chrome_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BrowserStack Extension</title>
+<style>
+  body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+  }
+  #status {
+    /* avoid an excessively wide status text */
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 400px;
+  }
+</style>
+</head>
+<body>
+  <button type="button" id="os_n_browser" name="os_n_browser">Get Details</button>
+  <br><br>
+  <form>
+    Select OS: 
+    <select>
+      <option id="os" value="os">XP</option>        
+    </select>
+    <br><br>
+    Select Browser: 
+    <select>
+      <option id="browser" value="browser">IE</option>        
+    </select>
+    <br><br>
+    Enter URL: <input type="text" name="url"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+<span class="gr__tooltip">
+  <!-- <span class="gr__tooltip-content">
+</span> --><i class="gr__tooltip-logo"></i>
+<span class="gr__triangle"></span></span>
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="os_and_browser_list.js"></script>
+</html>
+
